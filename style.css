@@ -1,0 +1,217 @@
+body {
+    background-color: #fafaee;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #bbada0;
+    padding: 10px;
+    width: 430px;
+    height: 430px;
+}
+
+#container > div {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(238, 228, 218, .35);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xxx-large;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#container > div.item-0 {
+    background-color: transparent;
+    color: white;
+}
+
+#container > div.item-1 {
+    background-color: #D32F2F;
+    color: white;
+}
+
+#container > div.item-2 {
+    background-color: #AD1457;
+    color: white;
+}
+
+#container > div.item-3 {
+    background-color: #6A1B9A;
+    color: white;
+}
+
+#container > div.item-4 {
+    background-color: #4527A0;
+    color: white;
+}
+
+#container > div.item-5 {
+    background-color: #283593;
+    color: white;
+}
+
+#container > div.item-6 {
+    background-color: #1565C0;
+    color: white;
+}
+
+#container > div.item-7 {
+    background-color: #0277BD;
+    color: white;
+}
+
+#container > div.item-8 {
+    background-color: #00838F;
+    color: white;
+}
+
+#container > div.item-9 {
+    background-color: #00695C;
+    color: white;
+}
+
+#container > div.item-10 {
+    background-color: #2E7D32;
+    color: white;
+}
+
+#container > div.item-11 {
+    background-color: #558B2F;
+    color: white;
+}
+
+#container > div.item-12 {
+    background-color: #AFB42B;
+    color: white;
+}
+
+#container > div.item-13 {
+    background-color: #F9A825;
+    color: white;
+}
+
+#container > div.item-14 {
+    background-color: #FF8F00;
+    color: white;
+}
+
+#container > div.item-15 {
+    background-color: #4E342E;
+    color: white;
+}
+
+#container > div.item-16 {
+    background-color: #000033;
+    color: white;
+}
+
+#head {
+    margin: 0 auto;
+    width: 450px;
+    height: 200px;
+}
+
+.scores-container {
+    float: right;
+}
+
+.title {
+    float: left;
+    font-size: 80px;
+    margin: 0;
+}
+
+.game-intro {
+    width: 100%;
+    float: left;
+}
+
+.new_game, .continue {
+    float: right;
+    background: #8f7a66;
+    border-radius: 3px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+}
+
+.continue {
+    float: left;
+}
+
+#score, #best {
+    position: relative;
+    display: inline-block;
+    background: #bbada0;
+    padding: 15px 25px;
+    font-size: 25px;
+    height: 25px;
+    line-height: 47px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#score:after, #best:after {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #eee4da;
+}
+
+#score:after {
+    content: "Score";
+}
+
+#best:after {
+    content: "best";
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #bbada0;
+    position: absolute;
+    bottom: 0;
+}
+
+#container > div#popup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(238, 228, 218, .75);
+    border-radius: 0;
+}
+
+#popup > div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#popup p {
+    padding: 10px;
+    text-align: center;
+}
